@@ -1,0 +1,42 @@
+.order-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .order-form-box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .order-form-box input,
+  .order-form-box select,
+  .order-form-box button {
+    display: block;
+    width: calc(100% - 12px);
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .order-form-box button {
+
+    color: #5c9210;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    background: none;
+    outline: none;
+  }
+  
+  .order-form-box button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

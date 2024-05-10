@@ -1,0 +1,28 @@
+.text-div{
+    text-align: center;
+    margin-top: 100px;
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .cancel-btn, .continue-btn {
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Style for the Cancel button */
+  .cancel-btn {
+    color: red;
+  }
+  
+  .continue-btn {
+    color: green;
+  }
+  

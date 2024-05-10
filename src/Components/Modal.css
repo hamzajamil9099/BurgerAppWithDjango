@@ -1,0 +1,59 @@
+/* Modal container */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    
+  }
+  
+  /* Display block for the modal when 'show' is true */
+  .display-block {
+    display: block;
+  }
+  
+  /* Modal content */
+  .modal-main {
+    color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 50px 100px;
+  }
+  
+  /* Modal heading */
+  .modal-main h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* List items inside the modal */
+  .modal-main ul {
+    padding-left: 20px;
+  }
+  
+  /* Modal buttons container */
+  .modal-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Continue button style */
+  .continue-btn {
+    color: green;
+  }
+  
+  /* Cancel button style */
+  .cancel-btn {
+    color: red;
+  }
+  

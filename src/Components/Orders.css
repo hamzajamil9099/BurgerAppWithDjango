@@ -1,0 +1,43 @@
+.orders-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: 70px;
+  }
+  
+  .order-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 2px 100px;
+  }
+  
+  .order-info {
+    margin-bottom: 20px;
+  }
+  
+  .order-info h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .ingredient-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .ingredient-item {
+    font-size: 1em;
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+  }
+  
